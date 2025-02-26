@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube to MP3 Converter</title>
+    <link rel="stylesheet" href="/static/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="whole-card">
+        <div class="heading">
+          <h2>Convert YouTube Video to MP3</h2>
+        </div>
+        <div class="form-box">
+          <form action="/convert" method="post">
+            <input
+              type="text"
+              name="url"
+              placeholder="Enter YouTube URL"
+              required
+            />
+            <button type="submit">Convert</button>
+          </form>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/finding_alan/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100070804376996" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/tcppandey/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
